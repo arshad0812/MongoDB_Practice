@@ -1,0 +1,7 @@
+use database name
+
+db.createCollection("collection name");
+
+or 
+
+db.collectionName.insertOne(object)

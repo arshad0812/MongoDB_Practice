@@ -1,0 +1,1 @@
+ db.demodb1.insertMany([{name:"abi"},{name:"aaa"},{name:"sss"}]);

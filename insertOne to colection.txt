@@ -1,0 +1,2 @@
+db.collection name.insertOne(data format)
+
