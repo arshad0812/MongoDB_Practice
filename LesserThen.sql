@@ -1,0 +1,1 @@
+db.demodb1.find({"details.salary":{$lt:20000}});
