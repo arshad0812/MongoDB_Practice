@@ -1,0 +1,1 @@
+db.user.aggregate([{$project:{name:1,tagsize:{$size:"$posts"}}}])

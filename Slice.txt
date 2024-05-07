@@ -1,0 +1,5 @@
+//Return only limited values in array in mongodb
+db.demodb1.find({},{tags:{$slice:1}})
+
+//return two element starting from 2 position
+db.demodb1.find({},{tags:{$slice:[1,2]}})
