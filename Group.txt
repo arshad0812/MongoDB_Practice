@@ -1,0 +1,1 @@
+    db.group.aggregate([{$group:{_id:'$customer_id',total_spent:{$sum:'$amount'}}}]);

@@ -1,0 +1,1 @@
+db.indexes.createIndex({name:1},{unqiue:true});

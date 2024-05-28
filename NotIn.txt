@@ -1,0 +1,1 @@
+ db.demodb1.find({tags:{$nin:['news','events']}});

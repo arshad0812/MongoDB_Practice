@@ -1,0 +1,3 @@
+//Returns values without grades,posts,tags
+
+db.demodb1.aggregate([{$project:{grades:0,posts:0,tags:0}}])
