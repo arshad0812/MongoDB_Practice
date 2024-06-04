@@ -1,0 +1,1 @@
+db.newone.updateOne({name:"aaa"},{$set:{name:"a"}},{upsert:true})

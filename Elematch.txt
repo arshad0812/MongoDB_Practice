@@ -1,1 +1,5 @@
-db.demodb1.find({grades:{$elemMatch:{subject:'English'}}});
+
+db.newone.findOne({tags:{$elemMatch:{brand:'audi'}}});
+
+or
+ db.newone.find({"tags.brand":"audi"});

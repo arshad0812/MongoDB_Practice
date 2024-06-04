@@ -1,1 +1,1 @@
-db.demodb1.find({name:{$eq:"arshad"}});
+db.newone.find({name:{$eq:"ggg"}});

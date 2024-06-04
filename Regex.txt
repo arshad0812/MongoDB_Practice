@@ -1,1 +1,4 @@
 db.demodb1.find({name:{$regex:"a",$options:"i"}});
+
+
+db.newone.find({name:{$regex:/yyy.com/i}});

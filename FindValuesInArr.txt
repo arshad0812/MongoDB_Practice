@@ -1,1 +1,16 @@
 db.demodb1.find({tags:{$eq:'news'}});
+
+or 
+
+db.newone.find({"tags.brand":{$exists:true}});
+
+
+or 
+
+ db.newone.find({"tags.brand":{$exists:true,$ne:'bmw'}});
+
+
+or 
+
+
+ db.arr.find({arr1:{$eq:[4,5,6]}})

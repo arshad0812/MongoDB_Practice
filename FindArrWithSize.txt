@@ -1,1 +1,7 @@
 db.demodb1.find({grades:{$size:2}});
+
+
+or 
+
+
+db.newone.find({tags:{$size:1}})

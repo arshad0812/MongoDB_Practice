@@ -3,3 +3,6 @@ db.demodb1.find({},{tags:{$slice:1}})
 
 //return two element starting from 2 position
 db.demodb1.find({},{tags:{$slice:[1,2]}})
+
+
+db.newone.find({},{tags:{$slice:1}})
